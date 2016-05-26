@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div#header{
+    width: 100%;
+    height: 70px;
+  /*  background-color:none;*/
+}
+
+div#body{
+ margin: auto;
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+ /*   background-color: cyan;*/
+    clear: both;
+    float: left;
+        
+}
+
+div#footer{
+    margin-top: 200px;
+    width: 100%;
+    height: 200px;
+   /* background-color: black;*/
+    line-height: 20px;
+    /*color: white;*/
+    clear: both;
+    float: left;
+    font-weight: normal; 
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 830px;
+    margin: auto;
+    overflow: hidden;
+}
+
+div#contenido{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.contenedor-tabla{
+display: table;
+width: 100%;
+/*background-color: yellow;*/
+}
+
+.contenedor-fila{
+display: table-row;
+width: 100%;
+/*background-color: red;*/
+}
+
+.contenedor-columna{
+display: table-cell;
+/*background-color: green;*/
+float: left;
+}
+
+.contenido-tabla{
+display: table;
+width: 100%;
+}
+
+.contenido-fila{
+display: table-row;
+width: 100%;
+}
+
+.contenido-columna{
+display: table-cell;
+float: left;
+width: 33%;
+}
+
+/*body {
+    font-family: Arial;
+}*/
+
+div ul {
+    list-style: none;
+    padding: 0;
+}
+
+div li {
+    line-height: 2rem;
+    position: relative;
+}
+
+div li ul {
+    position: absolute;
+}
+
+div a {
+    color: white;
+    display: block;
+    padding: 0 2.3em;
+    text-decoration: none;
+    transition: .4s;
+}
+
+div a:hover {
+    background: rgba(0,0,0,.1);
+}
+
+div > ul {
+    background: #848484;
+    display: table;
+    width: 100%;
+}
+
+div > ul > li {
+    float: left;
+}
+
+div li li{
+    background: #848484;
+    max-height: 0;
+    overflow: hidden;
+    transition: all .6s;
+    width: 200px;
+}
+
+div li:hover > ul > li {
+    max-height: 1000px;
+    overflow: visible;
+}
+
+div > ul > li > ul {
+    top: 100%;
+}
